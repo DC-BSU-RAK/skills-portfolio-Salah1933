@@ -6,7 +6,7 @@ import random
 # --------------------------------------
 def load_jokes():
     jokes = []
-    with open("randomJokes.txt", "r") as f:
+    with open("Assessment 1 - Skills Portfolio/A1 - Resources/randomJokes.txt", "r") as f:
         for line in f:
             line = line.strip()
             if "?" in line:
